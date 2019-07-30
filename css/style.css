@@ -5,10 +5,11 @@ body {
 }
 
 .header {
-  min-height: 338px;
+  /*min-height: 338px;*/
   box-sizing: border-box;
   background: linear-gradient(45deg, rgba(49, 85, 214, 0.84), rgba(236, 20, 197, 0.84));
-  padding-top: 168px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   padding-left: 22px;
   padding-right: 22px;
   position: relative;
@@ -40,7 +41,7 @@ body {
 .page-body {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 49px;
+  padding-top: 30px;
   align-items: center;
 
 }
@@ -60,13 +61,13 @@ body {
 }
 
 .page-body__get {
-  font-size: 16px;
+  font-size: 13px;
   line-height: 25px;
   color: #525358;
-  margin-top: 58px;
+  margin-top: 30px;
   font-weight: 800;
-  padding-left: 22px;
-  padding-right: 22px;
+  /*padding-left: 22px;*/
+  /*padding-right: 22px;*/
   margin-bottom: 22px;
   text-align: center;
   width: 100%;
